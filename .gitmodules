@@ -1,0 +1,3 @@
+[submodule "fmportal_api"]
+	path = fmportal_api
+	url = https://github.com/fmportal/fmportal_api.git

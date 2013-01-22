@@ -47,7 +47,7 @@ function fmp_add_post($post, $api)
 function fmportal_init() {
 	if($_SERVER['HTTP_USER_AGENT'] == 'fmportal')
 	{
-		include( plugin_dir_path( __FILE__ ) . 'fmpapi.php');
+		include( plugin_dir_path( __FILE__ ) . 'fmportal_api/fmpapi.php');
 
 		$fmpapi = new fmportal_api();
 
