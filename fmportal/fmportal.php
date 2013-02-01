@@ -1,14 +1,14 @@
 <?php
 /**
  * @package FM_Portal
- * @version 1.0
+ * @version 1.0.1
  */
 /*
 Plugin Name: FM Portal
 Plugin URI: http://footballmanagerportal.co.uk
 Description: This is a plugin for the Football Manager Portal API
 Author: Rob
-Version: 1.0
+Version: 1.0.1
 Author URI: http://footballmanagerportal.co.uk
 */
 function fmp_add_post($post, $api)
@@ -37,9 +37,9 @@ function fmp_add_post($post, $api)
 		$post->post_title,
 		$post->ID,
 		$post->post_date_gmt,
-		$tags,
+		$post->post_content,
 		$post->post_excerpt,
-		$post->post_content
+		$tags
 	);
 }
 
